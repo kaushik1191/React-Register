@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
+import Navbar from './nav.component';
 
 function Header(props) {
     return (
         <Fragment>
-            <h1>Register Here</h1>
-            <hr />
+            <Navbar />
         </Fragment>
     )
 }
